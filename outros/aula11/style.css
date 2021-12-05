@@ -1,0 +1,59 @@
+/*@charset "UTF-8";
+
+* {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(149, 149, 199);
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    
+}
+
+header {
+    text-align: center;
+    background-color: blue;
+    color: white;
+    
+
+}
+
+main {
+    background-color: white;
+    background-color: chartreuse;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+        
+}
+
+section {
+    background-color: tomato;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+input {
+    background-color: black;
+    width: 200px;
+    height: 25px;
+    color: yellow;
+}
+
+footer {
+    background-color: green;
+    text-align: center;
+}

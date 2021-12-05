@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <style>
+        body {
+            background-color: rgb(88, 86, 184);
+            color: white;
+            font: normal 20px arial
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando Estudo com DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript.</p>
+    <div id="msg">Clique em mim</div>
+    <img src="arvoreDom1.jpg" alt="">
+    <script>
+        var d = window.document.getElementById('msg')
+        d.style.background = 'green'
+        d.innerText = 'Estou aguardando...'
+
+        // Selecionando elementos com o DOM
+        
+        // por Marca (tags)
+        // por ID
+        // por Nome
+        // por Classe
+        // por Seletor
+
+        // window.document.getElementsByTagName('exemplo1')[0]
+
+        // window.document.getElementById('exemplo2')
+
+        // window.document.getElementsByName('exemplo3')
+
+        // window.document.getElementsByClassName('Exemplo4')
+
+        // window.document.querySelector('#Exemplo com id')
+
+        // window.document.querySelector('.exemplo com classe')
+
+        // querySelector() || querySelectorAll()
+    </script>
+</body>    
+</html>

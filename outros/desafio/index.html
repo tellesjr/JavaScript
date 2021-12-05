@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio</title>
+</head>
+<body>
+    <h1>Qual é seu pais</h1>
+    <input type="text" id="txt" required>
+    <input type="button" value="Ver" onclick="ver()" required>
+    <div id="msg"></div>
+
+
+
+    <script>
+       function ver() {
+        var texto = window.document.querySelector('#txt')
+        var textoDigitado = texto.value
+        var msg = window.document.querySelector('#msg')
+        msg.innerHTML = `<p>Vivendo em <strong>${textoDigitado}</strong></p>`
+
+        if(textoDigitado == 'Brasil' || textoDigitado == 'brasil') {
+           msg.innerHTML += 'Você é Brasileiro!'
+       } else {
+           msg.innerHTML += 'Você é <strong style="color: red;">Estrangeiro!</strong>'
+       }
+        
+       }
+      
+
+    </script>
+</body>
+</html>

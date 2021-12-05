@@ -1,0 +1,124 @@
+Operadores
+
+- Aritmeticos
+- atribuição
+- Relacionais
+- lógicos
+- ternários 
+
+1 - Aritmeticos 
+
++  (adição)
+-  (subtração)
+*  (multipicação)
+/  (divisão)
+%  (resto da divisão inteira)
+** (potência)
+
+exemplos 
+
+5 + 2 => 7
+5 - 2 => 3
+5 * 2 => 10
+5 / 2 => 2.5
+5 % 2 => 1
+5 ** 2 => 25
+
+Ordem de Precedência dos Operadores
+
+(1º) ()  
+(2º) ** 
+(3º) * / %
+(4º) + -
+
+2- Operadores de atribuição
+
+var a = 5 + 3 => (8) 
+var b = a % 5 => (3)
+var c = 5 * b ** 2 => (45)
+var d = 10 - a / 2 => (6) 
+var e = 6 * 2 / d => (2)
+var f = b % e + 4 / e => (3)
+
+auto-atribuição         
+
+var n = 3 => (3)
+n = n + 4 => (7)
+n = n - 5 => (2)
+n = n * 4 => (8)
+n = n / 2 => (4)
+n = n ** 2 => (16)
+n = n % 5 => (1)
+
+Simplicficante 
+
+n += 4 => (7)
+n -= 5 => (2) 
+n *= 4 => (8) 
+n /= 2 => (4) 
+n **= 2 => (16) 
+n %= 5 => (1) 
+
+Operadores de incremento
+
+var x = 5 
+x = x + 1 (x += 1) => (x++)
+x = x - 1 (x -= 1) => (x--) 
+
+Operadores Relacionais
+
+> (maior)
+< (menor)
+>= (maior ou igual)
+<= (menor ou igual)
+== (igual)
+!= (diferente)
+
+5 > 2 => true
+7 < 4 =>  false
+8 >= 8 => true
+9 <= 7 => false
+5 == 5 => true
+4 != 4 => false
+
+Operadores Relacionais de identidade
+
+=== (Identico)
+!== (não Identico)
+
+exemplos
+
+5 == 5 => true
+5 == '5' => true
+5 === '5' => false
+5 !== '5' => true
+
+Operadores lógicos
+
+! (negação) - não
+&& (conjunção) - E
+|| (disjunção) - OU
+
+ordem de Precedência entre Operadores
+
+1º Aritmeticos
+2º Relacionais
+3º lógicos
+
+ordem de execução entre os Operadores lógicos
+
+1º !
+2º &&
+3º ||
+
+exemplos
+
+idade >= 15 && idade <= 17 // a idade está entre 15 e 17
+estado == 'rj' || estado == 'sp' // o estado é rj ou sp
+salário > 1500 && sexo != 'm' // o salário é acima de 1500 e não é homem?
+
+operador ternário
+
+teste ? true : false
+
+média >= 7.0 ? 'aprovado' : 'reprovado'
